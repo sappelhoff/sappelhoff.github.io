@@ -1,33 +1,35 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			{% feed_meta %}
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		{% feed_meta %}
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
 
-			{{ content }}
+		{{ content }}
 
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="/contact">Contact</a></li>
-	        		<li><a href="https://github.com/sappelhoff">github.com/sappelhoff</a></li>
-					<li><a href="https://feedburner.google.com/fb/a/mailverify?uri=StefanAppelhoff&amp;loc=en_US">Subscribe via Email</a></li>
-				</ul>
-			</footer>
-			{% include analytics.html %}
-			{% include comments.html %}
-		</body>
-	</html>
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="/contact">Contact</a></li>
+        		<li><a href="https://github.com/sappelhoff">github.com/sappelhoff</a></li>
+				<li><a href="https://feedburner.google.com/fb/a/mailverify?uri=StefanAppelhoff&amp;loc=en_US">Subscribe via Email</a></li>
+			</ul>
+		</footer>
+
+		{% include analytics.html %}
+		{% include comments.html %}
+
+	</body>
+</html>
