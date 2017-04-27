@@ -3,23 +3,29 @@ layout: default
 title: Stefan Appelhoff's Blog
 ---
 <h1>{{ page.title }}</h1>
-<p> I have also written some posts on this
-
-	<a href="https://scanberlin.com/author/sappelhoff/" title="neuroscience blog">neuroscience blog</a>.
 
 
+<p>
+	I have also written some posts on this
+	<a href="https://scanberlin.com/author/sappelhoff/"
+		title="neuroscience blog">neuroscience blog</a>
+	.
 </p>
 
 
-
-<p> Check out the
-	<a href="/categories" title="blog categoires">blog categories</a>.
+<p>
+	Check out the
+	<a href="/categories" title="blog categoires">blog categories</a>
+	.
 </p>
 
 
 <ul class="posts">
-
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span>   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date_to_string }}</span>
+		<a href="{{ post.url }}" title="{{ post.title }}">
+			{{ post.title }}
+		</a>
+	</li>
   {% endfor %}
 </ul>
