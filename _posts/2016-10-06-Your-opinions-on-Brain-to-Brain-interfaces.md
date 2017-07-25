@@ -3,7 +3,7 @@ layout: post
 title: "Your opinions on Brain to Brain interfaces"
 date: 2016-10-06
 comments: true
-categories: neurotechnology, bci
+categories: neurotechnology bci
 ---
 
 Blog post @ [Brainy Sundays](https://scanberlin.com "Brainy Sundays neuroscience blog") neuroscience blog.
