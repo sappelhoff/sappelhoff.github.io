@@ -34,6 +34,7 @@ K = Anzahl Partner der Partner
 ```
 
 Die beim [Baumdiagramm](https://de.wikipedia.org/wiki/Baumdiagramm) aufgezeichneten Wahrscheinlichkeiten ergeben sich direkt aus den Regeln von der Organisation Mein-Grundeinkommen:
+
 - Man hat eine geringe Chance, direkt zu gewinnen (1/N) ...
 - ... und eine hohe Chance überhaupt nicht zu gewinnen (N-(M+1))/N)
 - Spannend ist der Fall, wenn einer der eigenen Partner gewinnt (M/N) ...
