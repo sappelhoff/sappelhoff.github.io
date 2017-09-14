@@ -54,11 +54,11 @@ Ich habe das ganze mal in Python programmiert (siehe [hier](https://github.com/s
 -----
 ![pretty figure]({{ site.url }}/assets/gewinn_partner.jpg)
 
-
+... Damit man es besser vergleichen kann habe ich auch noch die Wahrscheinlichkeiten eingefügt, wenn man 6 oder 7 mal in Folge mit einem Würfel eine Sechs würfeln möchte.
 -----
 ![pretty figure]({{ site.url }}/assets/gewinn_contour.jpg)
 
-
+... Die y-Achse ist hier für bessere Lesbarkeit des Plots im logarithmus angegeben (von 1 bis 100).
 -----
 
 Lange Rede kurzer Sinn. Es ist gut, viele Partner zu haben ... und noch besser ist es, wenn diese Partner nur dich als Partner haben. :-)
