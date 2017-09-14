@@ -49,10 +49,13 @@ Jetzt müssen wir uns nur noch auf ein paar Zahlen festlegen: N, M, K, und nGrun
 Wir (über)schätzen grob, dass 1 Million Teilnehmer bei der nächsten Verlosung mitmachen (N), man selbst 100 Partner hat (M), und dass diese 100 Partner im Schnitt selbst je 50 Partner haben (K). Außerdem gehen wir davon aus, dass 12 Grundeinkommen verlost werden (nGrundeinkommen).
 
 
-Ich habe das ganze mal in Python programmiert (siehe [hier](https://github.com/sappelhoff/meinbge)) und präsentiere hiermit ein paar interessante Plots.
+Ich habe das ganze mal in Python programmiert (siehe [hier](https://github.com/sappelhoff/meinbge)) und präsentiere hiermit ein paar interessante Plots (basierend auf unseren geschätzten N, M, K, und nGrundeinkommen).
 
 -----
 ![pretty figure]({{ site.url }}/assets/gewinn_partner.jpg)
+
+
+-----
 ![pretty figure]({{ site.url }}/assets/gewinn_contour.jpg)
 
 
@@ -60,6 +63,6 @@ Ich habe das ganze mal in Python programmiert (siehe [hier](https://github.com/s
 
 Lange Rede kurzer Sinn. Es ist gut, viele Partner zu haben ... und noch besser ist es, wenn diese Partner nur dich als Partner haben. :-)
 
-Achja ... und je nachdem wie sinnvoll die Schätzung von N,M,K, und nGrundeinkommen war stehen die Chancen sogar relativ günstig, ein Grundeinkommen zu gewinnen.
+Achja ... und je nachdem wie sinnvoll die Schätzung von N, M, K, und nGrundeinkommen war stehen die Chancen sogar relativ günstig, ein Grundeinkommen zu gewinnen.
 
 Viel Glück!
