@@ -52,8 +52,8 @@ Wir (über)schätzen grob, dass 1 Million Teilnehmer bei der nächsten Verlosung
 Ich habe das ganze mal in Python programmiert (siehe [hier](https://github.com/sappelhoff/meinbge)) und präsentiere hiermit ein paar interessante Plots.
 
 -----
-![pretty figure]({{ site.url }}/assets/gewinn_partner.png) <!-- .element height="50%" width="25%" -->
-![pretty figure]({{ site.url }}/assets/gewinn_contour.png) <!-- .element height="50%" width="25%" -->
+![pretty figure]({{ site.url }}/assets/gewinn_partner.png) <!-- .element height="5%" width="5%" -->
+![pretty figure]({{ site.url }}/assets/gewinn_contour.png) <!-- .element height="5%" width="5%" -->
 
 
 -----
