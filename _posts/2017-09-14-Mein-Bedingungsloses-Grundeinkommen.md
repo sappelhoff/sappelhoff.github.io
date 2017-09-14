@@ -6,7 +6,7 @@ comments: true
 categories: probability
 ---
 
-Schonmal von Mein-Grundeinkommen gehört? Interesse, ein Grundeinkommen zu gewinnen? Dann ist das hier vielleicht interessant - ein Grundeinkommen mal ausprobieren anstatt nur darüber zu disktuieren. :-)
+Schonmal von Mein-Grundeinkommen gehört? Interesse, ein Grundeinkommen zu gewinnen? Dann ist das hier vielleicht interessant - ein Grundeinkommen mal ausprobieren anstatt nur darüber zu diskutieren. :-)
 
 [Mein-Grundeinkommen](https://www.mein-grundeinkommen.de) ist eine Organisation, die (wer hätte es gedacht) [bedingungslose Grundeinkommen](https://de.wikipedia.org/wiki/Bedingungsloses_Grundeinkommen) verlost. Zur Zeit gibt es eine besondere Tandem-Aktion, bei der man zwischen 0 und 100 Partner sammeln kann. Bei einem Gewinn der Lotterie wird unter den Partnern des Gewinners ein weiteres Grundeinkommen verlost. Man hat also zwei Gewinnchancen, sobald man mehr als 0 Partner hat. Das ganze kann man auch schön aufmalen und die Wahrscheinlichkeiten ausrechnen:
 
@@ -34,11 +34,11 @@ K = Anzahl Partner der Partner
 ```
 
 Die beim [Baumdiagramm](https://de.wikipedia.org/wiki/Baumdiagramm) aufgezeichneten Wahrscheinlichkeiten ergeben sich direkt aus den Regeln von der Organisation Mein-Grundeinkommen:
-* Man hat eine geringe Chance, direkt zu gewinnen (1/N) ...
-* ... und eine hohe Chance überhaupt nicht zu gewinnen (N-(M+1))/N)
-* Spannend ist der Fall, wenn einer der eigenen Partner gewinnt (M/N) ...
-* ... denn dann hat man nochmals eine Chance unter den Partnern des Partners ausgewählt zu werden (1/K) ...
-* ... oder eben nicht ((K-1)/K).
+- Man hat eine geringe Chance, direkt zu gewinnen (1/N) ...
+- ... und eine hohe Chance überhaupt nicht zu gewinnen (N-(M+1))/N)
+- Spannend ist der Fall, wenn einer der eigenen Partner gewinnt (M/N) ...
+- ... denn dann hat man nochmals eine Chance unter den Partnern des Partners ausgewählt zu werden (1/K) ...
+- ... oder eben nicht ((K-1)/K).
 
 Aus diesem Baumdiagramm können wir jetzt die Gewinnchancen errechnen, indem wir den [Multiplikationssatz](https://de.wikipedia.org/wiki/Bedingte_Wahrscheinlichkeit#Multiplikationssatz) verwenden: P(A und B) = P(A gegeben B) * P(B)
 
@@ -52,13 +52,17 @@ Wir (über)schätzen grob, dass 1 Million Teilnehmer bei der nächsten Verlosung
 Ich habe das ganze mal in Python programmiert (siehe [hier](https://github.com/sappelhoff/meinbge)) und präsentiere hiermit ein paar interessante Plots (basierend auf unseren geschätzten N, M, K, und nGrundeinkommen).
 
 -----
+
 ![pretty figure]({{ site.url }}/assets/gewinn_partner.jpg)
 
 ... Damit man es besser vergleichen kann habe ich auch noch die Wahrscheinlichkeiten eingefügt, wenn man 6 oder 7 mal in Folge mit einem Würfel eine Sechs würfeln möchte.
+
 -----
+
 ![pretty figure]({{ site.url }}/assets/gewinn_contour.jpg)
 
 ... Die y-Achse ist hier für bessere Lesbarkeit des Plots im logarithmus angegeben (von 1 bis 100).
+
 -----
 
 Lange Rede kurzer Sinn. Es ist gut, viele Partner zu haben ... und noch besser ist es, wenn diese Partner nur dich als Partner haben. :-)
