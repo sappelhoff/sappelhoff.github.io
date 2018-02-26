@@ -55,3 +55,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+input.myform {
+    display: block;
+    margin-bottom: 10px;  
+}
