@@ -11,7 +11,7 @@ title: Stefan Appelhoff's Blog
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span class="timelist">{{ post.date | date_to_string }}</span>
+    <li><span class="timelist">{{ post.date | date: "%Y-%m-%d" }}</span>
 		<a href="{{ post.url }}" title="{{ post.title }}">
 			{{ post.title }}
 		</a>
