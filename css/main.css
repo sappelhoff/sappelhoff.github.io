@@ -44,7 +44,12 @@ p {
 }
 
 p.meta{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
+}
+
+p.license{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer {
