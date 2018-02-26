@@ -52,6 +52,10 @@ p.license{
     margin-bottom: 20px;
 }
 
+span.timelist {
+    padding-right: 30px;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
