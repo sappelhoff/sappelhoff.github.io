@@ -3,7 +3,7 @@ layout: post
 title: "No Neuroscience of Wisdom: Time to wise up?"
 date: 2016-12-22
 comments: true
-categories: wisdom
+categories: Wisdom
 ---
 
 Blog post @ [Brainy Sundays](https://scanberlin.com "Brainy Sundays neuroscience blog") neuroscience blog.

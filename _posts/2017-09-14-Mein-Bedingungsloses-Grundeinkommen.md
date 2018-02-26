@@ -3,7 +3,7 @@ layout: post
 title: "Mein Bedingungsloses Grundeinkommen"
 date: 2017-09-14
 comments: true
-categories: probability
+categories: German Basic-Income Probability
 ---
 
 Schonmal von Mein-Grundeinkommen gehört? Interesse, ein Grundeinkommen zu gewinnen? Dann ist das hier vielleicht interessant - ein Grundeinkommen mal ausprobieren anstatt nur darüber zu diskutieren. :-)

@@ -3,7 +3,7 @@ layout: post
 title: "Triggers with Psychopy on Brainvision Recorder"
 date: 2017-11-23
 comments: true
-categories: mixed
+categories: Hardware
 ---
 
 ## Problem
