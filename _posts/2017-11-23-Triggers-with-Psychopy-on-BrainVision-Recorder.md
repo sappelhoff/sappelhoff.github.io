@@ -34,7 +34,7 @@ LPT3 = /dev/parport2
 ```
 
 
-## Possible Solution 1
+## A Possible Solution
 We will use Python ([psychopy](http://psychopy.org)) to send triggers.
 
 ### Requirements
@@ -88,10 +88,31 @@ for i, p_port in enumerate(p_ports):
 
 If a marker shows up, note down the corresponding parallel port address.
 
-If you were unlucky and you did not see any markers, see below:
+If you were unlucky and you did not see any markers, see the `Troubleshooting` section below.
+
+### Alternative Way To Send Markers
+Only works on Windows (same requirements as above, but you don't need psychopy):
+
+``` python
+from ctypes import windll
+import time
+
+# Check if the driver is working
+assert windll.inpoutx64.IsInpOutDriverOpen()
+
+port_address = 0x3010
+marker_value = 99
+
+# Send a marker
+windll.inpoutx64.Out32(port_address, marker_value)
+
+# Reset the parallel port to zero
+time.sleep(0.01)
+windll.inpoutx64.Out32(port_address, 0)
+```
 
 
-## Possible Solution 2
+## Troubleshooting
 In case non of the above addresses work, you might have to use a different parallel port address.
 
 Check out the [Parallel-Port-Tester](https://www.downtowndougbrown.com/2013/06/parallel-port-tester/), which might yield some hints for the address.
