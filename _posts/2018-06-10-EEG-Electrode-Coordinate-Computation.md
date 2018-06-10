@@ -48,7 +48,7 @@ Two honorable mentions in this regard are an answer on
 [StackExchange Mathematics](https://math.stackexchange.com/q/2805204)
 and Ed Williams, with whom I had a very helpful exchange. If you work on a similar
 problem, you should see his comprehensive
-[collection of algorithms and functions](www.edwilliams.org/avform.htm)
+[collection of algorithms and functions](http://edwilliams.org/avform.htm)
 to compute positions on a sphere.
 
 All further code and documentation can be found in a [github repository](https://github.com/sappelhoff/eeg_positions).
