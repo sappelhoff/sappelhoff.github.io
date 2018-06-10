@@ -54,13 +54,13 @@ Ich habe das ganze mal in Python programmiert (siehe [hier](https://github.com/s
 
 -----
 
-![pretty figure]({{ site.url }}/assets/gewinn_partner.jpg)
+![pretty figure]({{ site.url }}/assets/2017-09-14/gewinn_partner.jpg)
 
 ... Damit man es besser vergleichen kann habe ich auch noch die Wahrscheinlichkeiten eingefügt, wenn man 6 oder 7 mal in Folge mit einem Würfel eine Sechs würfeln möchte.
 
 -----
 
-![pretty figure]({{ site.url }}/assets/gewinn_contour.jpg)
+![pretty figure]({{ site.url }}/assets/2017-09-14/gewinn_contour.jpg)
 
 ... Die y-Achse ist hier für bessere Lesbarkeit des Plots im logarithmus angegeben (von 1 bis 100).
 
