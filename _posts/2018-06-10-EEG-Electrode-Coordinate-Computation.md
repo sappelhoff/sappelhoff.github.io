@@ -6,6 +6,8 @@ comments: true
 categories: Software EEG Neuroscience
 ---
 
+TL;DR: Check out the [github repository](https://github.com/sappelhoff/eeg_positions)
+
 When recording electroencephalography (EEG) data, electrodes are usually placed according to an international standard. The 10-20, and by extension the 10-10 and 10-05 systems are established sets of rules for this case (see e.g., this [paper](https://www.biosemi.com/publications/pdf/Oostenveld2001b.pdf) for a review).
 
 Even when the actual electrode positions have not been empirically measured during the recording, an approximation of these positions is important for for plotting topographies or visualizing locations of sensors with the help of analysis software.
