@@ -2,7 +2,5 @@ name: Stefan Appelhoff
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 gems:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jemoji
