@@ -8,7 +8,10 @@ import sphinx_bootstrap_theme
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.githubpages'
 ]
+
+html_baseurl = 'stefanappelhoff.com'
 
 # General information about the project.
 project = ''
