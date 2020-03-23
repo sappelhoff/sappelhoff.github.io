@@ -7,3 +7,31 @@ This repository contains the source code for my
  - [sphinx-bootstrap-theme](https://github.com/ryan-roemer/sphinx-bootstrap-theme)
  - [CircleCI](https://circleci.com/blog/deploying-documentation-to-github-pages-with-continuous-integration/) (link to build guide)
  - [GitHub Pages](https://pages.github.com/)
+
+---
+
+# info
+
+GitHub user pages for some reason MUST be served from the `master` branch.
+To acommodate this, the present repo uses the `gh-pages` branch as the
+*default branch*, to be set in the GitHub options.
+The `master` branch is an *orphan branch*, that the
+[`gh-pages-npm`](https://www.npmjs.com/package/gh-pages) package pushes
+the HTML files to.
+
+A `.nojekyll` and a `CNAME` file are created using the [githubpages](https://www.sphinx-doc.org/en/master/usage/extensions/githubpages.html)
+sphinx extension.
+
+Switching on the *force HTTPS* option in the GitHub settings was also crucial
+for making the website work.
+
+Also, not every combination of URL works :shrug:
+
+| Link                                                         | does not work |
+| :----------------------------------------------------------: | :-----------: |
+| [https://sappelhoff.github.io](https://sappelhoff.github.io) | x             |
+| [http://sappelhoff.github.io](http://sappelhoff.github.io)   |               |
+| [sappelhoff.github.io](sappelhoff.github.io)                 |               |
+| [https://stefanappelhoff.com](https://stefanappelhoff.com)   |               |
+| [http://stefanappelhoff.com](http://stefanappelhoff.com)     | x             |
+| [stefanappelhoff.com](stefanappelhoff.com)                   |               |
