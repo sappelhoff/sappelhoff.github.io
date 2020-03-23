@@ -35,7 +35,7 @@ jobs:
             git config user.name "CircleCI"
       - add_ssh_keys:
           fingerprints:
-            - "c6:b1:a8:2d:2c:fb:a3:5d:4d:66:5b:96:93:b2:59:7f"
+            - "77:e2:be:26:a3:25:30:da:ed:c8:16:75:33:88:ac:70"
       - run:
           name: Deploy docs to gh-pages branch
           command: gh-pages --dotfiles --message "doc updates [skip ci]" --dist docs/_build/html
