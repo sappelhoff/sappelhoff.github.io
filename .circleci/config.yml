@@ -35,7 +35,7 @@ jobs:
             - "77:e2:be:26:a3:25:30:da:ed:c8:16:75:33:88:ac:70"
       - run:
           name: Deploy docs to gh-pages branch
-          command: gh-pages --dotfiles --message "doc updates [skip ci]" --dist docs/_build/html
+          command: gh-pages -b master --dotfiles --message "doc updates [skip ci]" --dist docs/_build/html
 
 workflows:
   version: 2.1
