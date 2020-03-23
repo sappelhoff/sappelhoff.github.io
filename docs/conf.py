@@ -11,7 +11,7 @@ extensions = [
     'sphinx.ext.githubpages'
 ]
 
-html_baseurl = 'stefanappelhoff.com'
+html_baseurl = 'http://stefanappelhoff.com'
 
 # General information about the project.
 project = ''
