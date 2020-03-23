@@ -1,6 +1,0 @@
-name: Stefan Appelhoff
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
