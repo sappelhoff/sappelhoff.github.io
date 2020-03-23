@@ -1,0 +1,53 @@
+# See: https://circleci.com/blog/deploying-documentation-to-github-pages-with-continuous-integration/
+version: 2.1
+
+jobs:
+  docs-build:
+    docker:
+      - image: python:3.7
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: pip install -r requirements.txt
+      - run:
+          name: Build docs
+          command: cd docs/ && make html
+      - persist_to_workspace:
+          root: docs/_build
+          paths: html
+
+  docs-deploy:
+    docker:
+      - image: node:8.10.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: docs/_build
+      - run:
+          name: Disable jekyll builds
+          command: touch docs/_build/html/.nojekyll
+      - run:
+          name: Install and configure dependencies
+          command: |
+            npm install -g --silent gh-pages@2.2
+            git config user.email "CircleCI@bot.com"
+            git config user.name "CircleCI"
+      - add_ssh_keys:
+          fingerprints:
+            - "c6:b1:a8:2d:2c:fb:a3:5d:4d:66:5b:96:93:b2:59:7f"
+      - run:
+          name: Deploy docs to gh-pages branch
+          command: gh-pages --dotfiles --message "doc updates [skip ci]" --dist docs/_build/html
+
+workflows:
+  version: 2.1
+  build:
+    jobs:
+      - docs-build
+      - docs-deploy:
+          requires:
+            - docs-build
+          filters:
+            branches:
+              only: master
