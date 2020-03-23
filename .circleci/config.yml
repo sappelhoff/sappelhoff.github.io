@@ -1,4 +1,5 @@
-# See: https://circleci.com/blog/deploying-documentation-to-github-pages-with-continuous-integration/
+# See:
+# https://circleci.com/blog/deploying-documentation-to-github-pages-with-continuous-integration/
 # NOTE: GitHub user pages must be pushed to `master` instead of `gh-pages`
 # so we make a new default branch `gh-pages` and pretend that it's `master` and vice versa
 version: 2.1
