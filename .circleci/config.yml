@@ -41,7 +41,6 @@ jobs:
           command: gh-pages -b master --dotfiles --message "doc updates [skip ci]" --dist docs/_build/html
 
 workflows:
-  version: 2.1
   build:
     jobs:
       - docs-build
