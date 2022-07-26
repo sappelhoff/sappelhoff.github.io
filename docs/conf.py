@@ -17,7 +17,7 @@ html_baseurl = 'http://stefanappelhoff.com'
 # General information about the project.
 project = ''
 author = 'Stefan Appelhoff'
-year = '2020'
+year = '2017'
 td = date.today()
 if year != str(td.year):
     year = '{}-{}'.format(year, td.year)
@@ -46,6 +46,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # Clean up sidebar: Do not show "Source" link
 html_show_sourcelink = False
 
+html_title = ''
 html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
@@ -55,7 +56,7 @@ templates_path = ['templates']
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'navbar_title': '',
+    'navbar_title': 'Website',
     'bootswatch_theme': "flatly",
     'navbar_sidebarrel': False,  # no "previous / next" navigation
     'navbar_pagenav': False,  # no "Page" navigation in sidebar
