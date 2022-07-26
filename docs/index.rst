@@ -1,7 +1,7 @@
 Stefan Appelhoff
 ================
 
-Hi, I am Stefan.
+Hi, I am Stefan |:wave:|
 
 I am a postdoctoral researcher in cognitive neuroscience at the
 `Max Planck Institute for Human Development <https://www.mpib-berlin.mpg.de/en/staff/stefan-appelhoff>`_
