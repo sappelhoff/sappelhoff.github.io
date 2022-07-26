@@ -64,4 +64,5 @@ html_theme_options = {
         ("Twitter", "https://twitter.com/stefanappelhoff", True),
         ("SoundCloud", "https://soundcloud.com/stefan-appelhoff", True),
         ("Google Scholar", "https://scholar.google.de/citations?user=ceECtQIAAAAJ&hl=en", True),  # noqa: E501
+        ("LinkedIn", "https://linkedin.com/in/stefan-appelhoff", True),
     ]}

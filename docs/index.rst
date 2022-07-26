@@ -3,9 +3,10 @@ Stefan Appelhoff
 
 Hi, I am Stefan.
 
-I am currently pursuing my PhD in cognitive neuroscience at the
+I am a postdoctoral researcher in cognitive neuroscience at the
 `Max Planck Institute for Human Development <https://www.mpib-berlin.mpg.de/en/staff/stefan-appelhoff>`_
-in Berlin:
+in Berlin.
+I work on questions like:
 
 
 * How do humans search for information before making a value based choice?
