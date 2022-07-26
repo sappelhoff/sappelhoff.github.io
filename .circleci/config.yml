@@ -18,7 +18,8 @@ jobs:
           command: make -C docs/ html
       - persist_to_workspace:
           root: docs/_build
-          paths: html
+          paths:
+            - html
 
   docs-deploy:
     docker:
