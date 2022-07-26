@@ -54,3 +54,17 @@ workflows:
           filters:
             branches:
               only: gh-pages
+
+  weekly:
+    jobs:
+      - docs-build
+      - docs-deploy:
+          requires:
+            - docs-build
+    triggers:
+      - schedule:
+          cron: "0 4 * * 0"
+          filters:
+            branches:
+              only:
+                - gh-pages
