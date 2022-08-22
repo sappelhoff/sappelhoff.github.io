@@ -1,7 +1,7 @@
 # See:
 # https://circleci.com/blog/deploying-documentation-to-github-pages-with-continuous-integration/
-# NOTE: GitHub user pages must be pushed to `master` instead of `gh-pages`
-# so we make a new default branch `gh-pages` and pretend that it's `master` and vice versa
+# NOTE: GitHub user pages must be pushed to `main` instead of `gh-pages`
+# so we make a new default branch `gh-pages` and pretend that it's `main` and vice versa
 version: 2.1
 
 jobs:
@@ -45,7 +45,7 @@ jobs:
             - "f6:b0:c0:7e:2e:33:22:73:99:0b:89:b5:17:e0:1f:f3"
       - run:
           name: Deploy docs to gh-pages branch
-          command: gh-pages -b master --dotfiles --message "doc updates [skip ci]" --dist docs/_build/html
+          command: gh-pages -b main --dotfiles --message "doc updates [skip ci]" --dist docs/_build/html
 
 
 workflows:

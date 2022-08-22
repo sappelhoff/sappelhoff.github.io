@@ -1,7 +1,7 @@
 [![CircleCI](https://circleci.com/gh/sappelhoff/sappelhoff.github.io.svg?style=shield)](https://circleci.com/gh/sappelhoff/sappelhoff.github.io)
 
 This repository contains the source code for my
-[webpage](http://www.stefanappelhoff.com), published with the help of:
+[webpage](https://stefanappelhoff.com), published with the help of:
 
  - [Sphinx](https://www.sphinx-doc.org/en/master/)
  - [sphinx-bootstrap-theme](https://github.com/ryan-roemer/sphinx-bootstrap-theme)
@@ -12,10 +12,10 @@ This repository contains the source code for my
 
 # info
 
-GitHub user pages for some reason MUST be served from the `master` branch.
+GitHub user pages for some reason MUST be served from the `main` branch.
 To acommodate this, the present repo uses the `gh-pages` branch as the
 *default branch*, to be set in the GitHub options.
-The `master` branch is an *orphan branch*, that the
+The `main` branch is an *orphan branch*, that the
 [`gh-pages-npm`](https://www.npmjs.com/package/gh-pages) package pushes
 the HTML files to.
 

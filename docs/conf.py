@@ -11,7 +11,7 @@ extensions = [
     "sphinxemoji.sphinxemoji",
 ]
 
-html_baseurl = "http://stefanappelhoff.com"
+html_baseurl = "https://stefanappelhoff.com"
 
 # General information about the project.
 project = ""
