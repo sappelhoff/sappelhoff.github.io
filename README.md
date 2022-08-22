@@ -1,4 +1,4 @@
-[![.github/workflows/build_and_deploy.yml](https://github.com/sappelhoff/sappelhoff.github.io/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/sappelhoff/sappelhoff.github.io/actions/workflows/build_and_deploy.yml)
+[![Build and Deploy](https://github.com/sappelhoff/sappelhoff.github.io/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/sappelhoff/sappelhoff.github.io/actions/workflows/build_and_deploy.yml)
 
 This repository contains the source code for my
 [webpage](https://stefanappelhoff.com), published with the help of:
