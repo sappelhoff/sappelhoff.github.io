@@ -21,14 +21,3 @@ Sphinx extension.
 
 Switching on the *force HTTPS* option in the GitHub settings was also crucial
 for making the website work.
-
-Also, not every combination of URL works :shrug:
-
-| Link                                                         | does not work |
-| :----------------------------------------------------------: | :-----------: |
-| [https://sappelhoff.github.io](https://sappelhoff.github.io) |               |
-| [http://sappelhoff.github.io](http://sappelhoff.github.io)   |               |
-| [sappelhoff.github.io](sappelhoff.github.io)                 | x             |
-| [https://stefanappelhoff.com](https://stefanappelhoff.com)   |               |
-| [http://stefanappelhoff.com](http://stefanappelhoff.com)     |               |
-| [stefanappelhoff.com](stefanappelhoff.com)                   | x             |
