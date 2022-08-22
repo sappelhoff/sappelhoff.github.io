@@ -24,11 +24,10 @@ jobs:
           make -C docs/ html
 
       - name: deploy
-        if: steps.build.outcome == 'success'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: docs/_build/html
-          branch: main
+          branch: gh-pages
           git-config-name: Stefan Appelhoff
           git-config-email: stefan.appelhoff@mailbox.org
           commit-message: updates [skip ci]
