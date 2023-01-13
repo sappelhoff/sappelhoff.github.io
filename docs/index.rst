@@ -1,5 +1,5 @@
-Stefan Appelhoff
-================
+Dr. Stefan Appelhoff
+====================
 
 Hi, I am Stefan |:wave:|
 
