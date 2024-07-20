@@ -16,9 +16,7 @@ html_baseurl = "https://stefanappelhoff.com"
 # General information about the project.
 project = ""
 author = "Stefan Appelhoff"
-year = "2017"
-td = date.today()
-copyright = f"{td.year}, Stefan Appelhoff. Last updated {td.isoformat()}"
+copyright = f"2017, Stefan Appelhoff. Last updated {date.today().isoformat()}"
 
 html_show_sphinx = False  # do not show "created using Sphinx X.Y"
 
