@@ -18,12 +18,7 @@ project = ""
 author = "Stefan Appelhoff"
 year = "2017"
 td = date.today()
-if year != str(td.year):
-    year = "{}-{}".format(year, td.year)
-
-copyright = "{}, Stefan Appelhoff. Last updated {}".format(
-    year, td.isoformat()
-)
+copyright = f"{td.year}, Stefan Appelhoff. Last updated {td.isoformat()}"
 
 html_show_sphinx = False  # do not show "created using Sphinx X.Y"
 
