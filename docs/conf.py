@@ -64,7 +64,6 @@ html_theme_options = {
     "bootstrap_version": "3",
     "navbar_links": [
         ("GitHub", "https://github.com/sappelhoff/", True),
-        ("Bluesky", "https://bsky.app/profile/stefanappelhoff.bsky.social", True),
         ("SoundCloud", "https://soundcloud.com/stefan-appelhoff", True),
         (
             "Google Scholar",
